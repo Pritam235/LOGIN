@@ -1,0 +1,228 @@
+.login-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-section {
+  flex: 1;
+  background-image: url("../../assets/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 90px;
+  left: 80px;
+  width: 280px;
+}
+
+.overlay h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.overlay p {
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.login-card {
+  width: 420px;
+}
+
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.input-icon {
+  color: gray;
+  margin-right: 10px;
+}
+
+.input-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px 0;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.remember {
+  display: flex;
+  gap: 10px;
+}
+
+.remember-forgot a {
+  color: #2962ff;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 16px;
+  background: #2962ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 35px 0;
+}
+
+.divider div {
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+.divider span {
+  margin: 0 15px;
+}
+
+.social-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons button {
+  width: 55px;
+  height: 55px;
+  background: #e5e7eb;
+  border: none;
+  border-radius: 12px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.contact a {
+  color: #2962ff;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .left-section {
+    min-height: 300px;
+  }
+
+  .overlay h1 {
+    font-size: 40px;
+  }
+
+  .overlay p {
+    font-size: 20px;
+  }
+
+  .right-section {
+    padding: 40px 20px;
+  }
+
+  .login-card {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons button {
+  width: 55px;
+  height: 55px;
+  border: none;
+  background: #e5e7eb;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .left-section {
+    min-height: 350px;
+  }
+
+  .overlay {
+    top: 60px;
+    left: 30px;
+    width: 220px;
+  }
+
+  .overlay h1 {
+    font-size: 20px;
+  }
+
+  .overlay p {
+    font-size: 16px;
+  }
+}
+
+
+
